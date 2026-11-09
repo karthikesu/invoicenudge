@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>InvoiceNudge (private prototype)</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:560px;margin:1.5rem auto;padding:0 1rem}
+textarea{width:100%;height:9rem;font:inherit}
+button{padding:.7rem 1rem;font:inherit;margin:.4rem .4rem .4rem 0}
+table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccc;padding:6px;text-align:left}
+.banner{background:#fff3cd;padding:.5rem}
+</style></head><body>
+<p class="banner">Private prototype. Test payments only (PayPal sandbox or mock). No real money moves.</p>
+<h1>InvoiceNudge</h1>
+<p>Paste a messy job chat. Get a clean invoice.</p>
+<textarea id="chat" placeholder="3 x banner @ 25&#10;logo design - RM150&#10;2 hours @ 40/hr&#10;deposit RM100 paid"></textarea>
+<div><button id="make">Make invoice</button></div>
+<div id="out"></div>
+<script src="/app.js"></script>
+</body></html>
