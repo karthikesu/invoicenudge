@@ -1,0 +1,8 @@
+{
+  "name": "invoicenudge",
+  "version": "0.4.3",
+  "private": true,
+  "description": "Private local prototype. Real AI (Groq) with rule fallback; PayPal SANDBOX only (mock without credentials).",
+  "scripts": { "start": "node src/server.js", "test": "node test/run.js" },
+  "license": "MIT"
+}
